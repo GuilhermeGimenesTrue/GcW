@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board</title>
+    <link rel="stylesheet" href="boot_css/bootstrap.css">
+    <link rel="stylesheet" href="css/meu-css.css">
+</head>
+<body>
+    <header>
+        <nav id="navboard" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img class="icon" src="img/ufoico.gif">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Países
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="board.html">🇧🇷 Brasil</a></li>
+                                <li><a class="dropdown-item" href="board-germany.html">🇩🇪 Alemanha</a></li>
+                                <li><a class="dropdown-item" href="board-japan.html">🇯🇵 Japão</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="boardmain">
+        <section>
+            <div class="image-container">
+                <img src="img/feijoada-730x480.jpeg" alt="Feijoada">
+                <div class="image-caption">Feijoada</div>
+            </div>
+        </section>
+        <section>
+            <p>A Feijoada é um prato típico do Brasil. Eu descobri ele quando visitei o país uma vez!</p>
+        </section>
+        <section>
+            <h1>Ingredientes</h1>
+            <ul class="list-group">
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                <label class="form-check-label" for="firstCheckbox">Banha de Porco</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                <label class="form-check-label" for="secondCheckbox">300 gramas de lombo suíno fresco ou dessalgado</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">400 gramas de costelinha suína fresca ou dessalgada (cortadas em cubos)</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                <label class="form-check-label" for="firstCheckbox">150 gramas de bacon</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                <label class="form-check-label" for="secondCheckbox">1 cebola picada</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">Sal a gosto</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                <label class="form-check-label" for="firstCheckbox">3 dentes de alho picados grosseiramente</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                <label class="form-check-label" for="secondCheckbox">2 folhas de louro</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">1 kg de feijão-preto (que tenha ficado de molho por no mínimo 4 horas)</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                <label class="form-check-label" for="firstCheckbox">1 pé de porco dessalgado</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                <label class="form-check-label" for="secondCheckbox">1 joelho de porco dessalgado</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">400 gramas de rabo de porco dessalgado</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                <label class="form-check-label" for="firstCheckbox">300 gramas de carne-seca dessalgada</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                <label class="form-check-label" for="secondCheckbox">400 gramas orelha suína dessalgada</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">1 maço de salsinha picada</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                <label class="form-check-label" for="firstCheckbox">2 linguiças calabresas</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                <label class="form-check-label" for="secondCheckbox">2 paios</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">1/2 laranja com casca</label>
+            </li>
+            </ul>
+        </section>
+        <section>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">1</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">2</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Em uma panela grande e alta, com fundo grosso, derreta 2 colheres de sopa de banha de porco;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">3</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Quando a banha derreter, em fogo médio, coloque o lombo inteiro e as costelinhas cortadas em cubos grandes. Espere dourar bem de um lado, cerca de 3 minutos. Vire as carnes para dourar do outro lado por mais 3 minutos;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">4</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Quando as carnes estivem douradinhas, retire da panela e reserve. Dependendo do tamanho de sua panela, doure o lombo e as costelinhas separadamente;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">5</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">6</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">7</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">8</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">9</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">10</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">11</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">12</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">13</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">14</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">15</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">16</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="image-container">
+                            <img src="img/feijoada-730x480.jpeg" class="d-block w-100" alt="...">
+                            <div class="circle-number">17</div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <p>Se não tiver banho de porco, use óleo vegetal. Se possível, compre as carnes já dessalgadas. Se for dessalgar em casa, faça o procedimento um dia antes. Você pode substituir algumas carnes por outras, aumentando a quantidade de suas carnes preferidas;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS bundle (includes Popper) -->
+    <script src="boot_js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
