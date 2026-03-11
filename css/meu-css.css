@@ -3,11 +3,17 @@
     src: url(../StarShieldV2-9M52K.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Pix32';
+    src: url(../Pix32.ttf) format('truetype');
+}
+
 body {
     background-image: url(../img/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    image-rendering: pixelated;
 }
 
 h1 {
@@ -18,6 +24,11 @@ h1 {
     text-align: center;
     text-shadow: 0 0 10px lime;
 }
+
+h2, p {
+    font-family: 'Pix32', sans-serif;
+}
+
 
 #cozinha{
     position: absolute;
@@ -36,10 +47,10 @@ h1 {
 
 
 #board {
-    left: 34%;
-    top: 41%;
-    width: 5%;
-    height: 5%;
+    left: 12%;
+    top: 60%;
+    width: 12%;
+    height: 10%;
     z-index: 2;
 }
 
@@ -47,6 +58,68 @@ h1 {
     position: absolute;
     display: block;
 }
+
+#chatbox{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    width: 60%;
+    height: auto;
+    margin-left: -30%;
+}
+
+#chatbox.hidden{
+    transform: translate(0, 17%) scale(0.01) rotate(-25deg);
+    transition: transform 0.3s ease-in-out, scale 0.3s ease-in-out, rotate 0.3s ease-in-out, opacity 0.1s ease-in-out 0.2s;
+}
+
+#chatbox.visible{
+    transform: translate(0, 0) scale(1) rotate(0deg);
+    transition: transform 0.3s ease-in-out, scale 0.3s ease-in-out, rotate 0.3s ease-in-out;
+}
+
+#boardbg{
+    width: 100%;
+    height: 100%;
+}
+
+#chat{
+    position: absolute;
+    top: 3%;
+    left: 48.5%;
+    width: 95%;
+    height: 94%;
+    margin-left: -46%;
+}
+
+#speechbox{
+    position: absolute;
+    min-width: 20%;
+    max-width: 25%;
+    min-height: 1%;
+    max-height: 15%;
+    background: #ffffe1;
+    border: 26px solid transparent;
+    border-image: url(../img/bordertex.png) 33% stretch;
+    border-radius: 32px;
+    text-align: justify;
+    top: 45%;
+    left: 60%;
+}
+
+#speechbox p, h2 {
+    font-size: 0.8em;
+    margin-top: -0.75vw;
+    color: black;
+    text-shadow: none;
+
+}
+
+
+
+
+
+
 
 #boardmain{
    background-color: black;

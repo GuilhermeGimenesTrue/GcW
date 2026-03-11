@@ -1,6 +1,1 @@
-# GcW
-RAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
-https://www.figma.com/design/C2pTl35Hhm7JCD3VY47c1M/COzinha-legal-espacial?node-id=0-1&t=OBQLBtyjKt5KhSBt-1
-
-
-[https://github.com/GuilhermeGimenesTrue/GcW/main.html](https://guilhermegimenestrue.github.io/GcW/main.html)
+https://github.com/GuilhermeGimenesTrue/site_espacial/blob/048e62873a5da8281eb1168b2ba19d2c9588ca90/main.html
